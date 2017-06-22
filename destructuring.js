@@ -53,7 +53,7 @@ people.forEach(
 );
 
 
-var [, Skyler] = people;
+var [, Skyler] = people; // descructuring of arrays is quite interesting
 
 function logEmail({email}) {
   console.log(email);
